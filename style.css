@@ -1,0 +1,80 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap");
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", "sans-serif";
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background: url(IMG/bg3.jpg) center center / cover;
+    background-position: center center;
+}
+
+.container {
+    position: relative;
+    width: 400px;
+    height: 200px;
+    padding: 20px;
+    background: rgba(255, 0, 0, 0.66);
+    border-width: 5px;
+    border-style: solid;
+    border-color: rgba(0, 0, 0, 0.63);
+    border-image: initial;
+    border-radius: 20px;
+}
+
+h4 {
+    text-align: center;
+    font-weight: 800;
+    font-size: 20px;
+    color: rgb(255, 255, 255);
+}
+
+.pass-gen {
+    position: relative;
+    padding: 20px;
+}
+
+.pass-gen input {
+    position: relative;
+    width: 100%;
+    height: 30px;
+    font-size: 20px;
+    text-transform: capitalize;
+    text-align: center;
+    color: rgb(255, 255, 255);
+    background: transparent;
+    border-width: 3px;
+    border-style: solid;
+    border-color: rgba(255, 255, 255, 0.46);
+    border-image: initial;
+    border-radius: 20px;
+    outline: none;
+}
+
+.pass-gen button {
+    margin-top: 20px;
+    cursor: pointer;
+    border-radius: 20px;
+}
+
+.pass-gen button.gen {
+    width: 100px;
+    height: 30px;
+    margin-left: 15px;
+    float: left;
+}
+
+.pass-gen button.copy {
+    float: right;
+    margin-right: 15px;
+    height: 30px;
+    width: 100px;
+}
+
