@@ -10,7 +10,7 @@ Generate secure and random passwords with this simple web-based password generat
 
 ## How to Use
 
-1. Open the `index.html` file in your web browser.
+1. Open the `main.html` file in your web browser.
 2. Click the "Generate" button to create a random password.
 3. The generated password will be displayed in the designated area.
 4. Optionally, click the "Copy" button to copy the password to the clipboard.
