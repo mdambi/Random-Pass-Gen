@@ -23,7 +23,7 @@ Generate secure and random passwords with this simple web-based password generat
 
 ## Screenshots
 
-![Screenshot](/screenshots/screenshot.png)
+![Screenshot](/screenshot/screenshot.png)
 
 ## License
 
